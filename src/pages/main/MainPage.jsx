@@ -7,15 +7,15 @@ import "./MainPage.scss";
 export const MainPage = () => {
   const [project, setProject] = useState([
     {
-      name: "Name",
+      name: "Weather Dashboard",
       href: "/href",
     },
     {
-      name: "Name 1",
+      name: "Calculator",
       href: "/href",
     },
     {
-      name: "Name 2",
+      name: "To-Do List",
       href: "/href",
     },
   ]);
