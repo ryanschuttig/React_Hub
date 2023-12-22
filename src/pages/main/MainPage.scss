@@ -1,8 +1,9 @@
 .container {
   display: flex;
-  margin-top: 45px;
+  margin-top: 70px;
   flex-direction: row;
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
 }
