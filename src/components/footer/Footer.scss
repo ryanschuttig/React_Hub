@@ -1,4 +1,8 @@
-a {
+a,
+a:visited,
+a:hover,
+a:active {
+  color: inherit;
   margin-right: 2rem;
 }
 
