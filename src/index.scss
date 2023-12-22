@@ -1,0 +1,13 @@
+// selects all styles
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box; // includes padding and border in element's total width and height
+}
+
+body {
+  background: #333;
+  max-width: 100%;
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+}
