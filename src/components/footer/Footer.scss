@@ -5,8 +5,7 @@ a {
 .footer {
   color: hsl(200, 100%, 90%);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   position: absolute;
   bottom: 0;
-  width: 100%;
 }
