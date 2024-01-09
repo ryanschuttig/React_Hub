@@ -9,7 +9,7 @@ export const MainPage = () => {
   const [project, setProject] = useState([
     {
       name: "Weather Dashboard",
-      href: "/href",
+      href: "/weather",
     },
     {
       name: "Calculator",
