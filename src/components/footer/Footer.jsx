@@ -5,6 +5,9 @@ function Footer() {
   return (
     <div className="footer">
       <p>
+        <a href="https://github.com/angelinalex" target="_blank">
+          angelinalex
+        </a>
         <a href="https://github.com/EpicGibbon" target="_blank">
           EpicGibbon
         </a>
