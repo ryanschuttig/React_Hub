@@ -6,9 +6,9 @@ import WeatherPage from "./pages/weather-dashboard/WeatherPage";
 function App() {
   return (
     <div>
-      <MainPage />
       <Routes>
-        <Route path="/weather" element={WeatherPage} />
+        <Route exact path="/" element={<MainPage />} />
+        <Route path="/weather" element={<WeatherPage/>} />
       </Routes>
     </div>
   );
