@@ -27,21 +27,13 @@ const SearchBar = () => {
       setAutocompleteErr("");
     }
     // Update the city field in the formData state
-
+    setCity(newCity);
+    console.log(city)
   };
 
 
   const handleSubmit = (event) => {
-    event.preventDefault();
-   //check if the city is valid
-   const res = fetchPlace(city);
-   if(!res){
-    setAutocompleteErr('Please select a valid city.');
-    return;
-  }
-  else{
-
-  }
+    console.log(city)
   // At this point, all validations are successful
   setAutocompleteErr('');
   };
@@ -54,7 +46,10 @@ const SearchBar = () => {
   return (
     <div className='searchbar'>
 
-        <div className="placesAutocomplete">
+
+
+<form onSubmit={handleSubmit}>
+     <div className="placesAutocomplete">
         <div className="placesAutocomplete__inputWrap">
           <label htmlFor="city" className="label">
 
@@ -85,6 +80,10 @@ const SearchBar = () => {
         </div>
       </div>
  
+
+
+     </form>
+       
 
 
 
