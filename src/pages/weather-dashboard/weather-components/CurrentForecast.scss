@@ -1,0 +1,44 @@
+.currentForecast {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+
+  }
+  
+  .text-container {
+    flex: 1; /* Allow the text container to grow to fill available space */
+    text-align: left; /* Align text to the left */
+    color: rgb(186, 192, 195);
+    font-family: 'Times New Roman', Times, serif;
+
+    .city{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .chance{
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .temp{
+        font-size: 40px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+  }
+  
+  .weather-image {
+    max-width: 20%; /* Set a maximum width to the image container */
+    img {
+      width: 100%; /* Make the image responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+  

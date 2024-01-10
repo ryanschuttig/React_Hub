@@ -1,0 +1,17 @@
+.searchbar {
+    width: 100%; // Full screen width
+    background-color: #21354D; // Background color
+    border-radius: 20px; // Rounded corners
+    padding: 10px; // Padding inside the search bar
+  
+    input {
+      width: 100%; // Full input field width
+      border: none; // No border
+      outline: none; // No outline on focus
+      background-color: inherit; // Same as parent background
+      color: white; // Text color
+      font-size: 16px; // Font size
+      border-radius: inherit; // Inherit border radius from parent
+    }
+  }
+  
