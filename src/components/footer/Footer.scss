@@ -6,6 +6,10 @@ a:active {
   margin-right: 2rem;
 }
 
+a:last-child {
+  margin: unset;
+}
+
 .footer {
   border-top: 2px solid hsl(200, 100%, 50%);
   color: hsl(200, 100%, 90%);
