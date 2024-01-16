@@ -4,16 +4,15 @@
   margin-top: 35px;
   background: hsl(200, 100%, 90%, 0.1);
   border: 2px solid hsl(200, 100%, 50%);
+  color: hsl(200, 100%, 90%);
 }
 
 .filter::placeholder {
   color: hsl(200, 100%, 90%);
-  padding: 3px;
 }
 
 .filter:focus {
-  outline: 2px solid hsl(200, 100%, 90%);
-  border: unset;
+  border: 2px solid hsl(200, 100%, 90%);
+  outline: none;
   color: hsl(200, 100%, 90%);
-  padding: 7px;
 }
